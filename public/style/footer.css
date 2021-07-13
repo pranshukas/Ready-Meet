@@ -1,0 +1,27 @@
+footer{
+    background-color: #4b53bc;
+    color: white;
+    padding:45px 0 20px;
+    font-size:17px;
+    line-height:24px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: rgba(245, 245, 245, 0.767);
+}
+
+.social-icons {
+    text-align:right;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+.social-icons a
+{
+  font-size: 30px;
+  margin-left: 5%;
+}

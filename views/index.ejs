@@ -1,0 +1,153 @@
+<link rel="stylesheet" href="style/index.css" />
+<link rel="stylesheet" href="style/footer.css" />
+
+<!-- NavBar  -->
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid nav-contcnt">
+        <a class="navbar-brand" href="/" style="color: #5f6368">
+            <img src="images/logo.png" alt="logo" class="logo-icon" />
+            <span className="logo-text">Ready Meet</span>
+        </a>
+        <div class="d-flex">
+            <p class="m-0 px-3 username" style="font-weight: bold; color: #5f6368">
+                Welcome <%= user.name %>
+            </p>
+            <a class="icon" onclick="darkMode()">
+                <ion-icon id="dark-mode" name="moon-outline"></ion-icon>
+            </a>
+            <a class="icon" href="#faq-section">
+                <ion-icon name="help-circle-outline"></ion-icon>
+            </a>
+            <a class="icon" href="#">
+                <ion-icon name="settings-outline"></ion-icon>
+            </a>
+            <a class="icon" href="/logout">
+                <ion-icon name="exit-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
+</nav>
+
+<hr style="height: 2px; border-width: 0; color: gray; background-color: gray" />
+
+<!-- Body Content  -->
+
+<div class="container py-5" style="margin-top: 4%">
+    <div class="row g-3">
+        <div class="col-lg-6">
+            <h1 class="mb-3">Ready Meet</h1>
+            <h3 class="mb-3">Meet, chat, call, and collaborate in just one place.</h3>
+            <div class="a123 my-5" style="display: flex">
+                <a class="btn new-meeting blue" style="width: 180px" href="/new-meeting" role="button">
+                    <ion-icon style="font-size: 24px; margin-right: 5%" name="videocam"></ion-icon>New Meeting
+                </a>
+                <form action="join-room" style="margin-left: 1rem" method="POST">
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroup-sizing-default">
+                            <ion-icon style="font-size: 24px" name="people"></ion-icon>
+                        </span>
+                        <input name="room_id" type="text" class="form-control" placeholder="Enter a code or Link" />
+                        <button class="btn btn-outline-primary" type="submit" id="button-addon2">
+                            Join
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <hr />
+            <!-- <p><a href="/" style="text-decoration: none">See plans and pricing</a></p> -->
+            <div class="features">
+                <h4>Features</h4>
+                <div class="feature-list">
+                    <p><ion-icon name="videocam-outline"></ion-icon>Group Meeting</p>
+                    <p><ion-icon name="chatbubble-ellipses-outline"></ion-icon>Real Time Chat</p>
+                    <p><ion-icon name="recording-outline"></ion-icon>Record Meeting</p>
+                    <p><ion-icon name="book-outline"></ion-icon> Notes</p>
+                    <p><ion-icon name="mail-outline"></ion-icon>Send Email Invitation</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card" style="box-shadow: 0 0 5px #b8b8b8">
+                <div class="card-body">
+                    <img src="images/ready-meet.png" width="100%" class="rounded" alt="ready-meet" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FAQ Section  -->
+
+<div id="faq-section" class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="images/meeting.gif" alt="ready-meet" style="width: 100%" />
+        </div>
+        <div class="col-lg-6">
+            <div class="container" style="margin-top: 15%">
+                <h3 style="margin-bottom: 6%">Frequently Asked Questions</h3>
+                <button class="accordion">How to Use Ready Meet</button>
+                <div class="panel">
+                    <p>
+                        Ready Meet is Very Simple to Use. After Logining to your Account You
+                        can either start a new meeting or join a meeting with the link.
+                        After Creating/Joining the Meeting You would enter the Waiting Room
+                        click on Join(Green) Button to Enter the Meeting.
+                    </p>
+                </div>
+
+                <button class="accordion">What Features does Ready Meet have?</button>
+                <div class="panel">
+                    <p>
+                        Currently Ready Meet Supports Video/Mic on/off, Send Invitation,
+                        Recording, Downloading Meeting Notes PDF, ScreenShare and Chat
+                        Featues. We are starving more to add many new Exciting Features for
+                        Our Users and enhace experience.
+                    </p>
+                </div>
+
+                <button class="accordion">Is Ready Meet Free and Safe?</button>
+                <div class="panel">
+                    <p>
+                        Yes Ready Meet Completely Free as well as Safe for all the Users.
+                        Your Personal Information is never shared with anyone, also the
+                        Chats are secure and deleted after the meet is ended.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer  -->
+<footer>
+    <hr />
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 copyright-text">
+                <p>
+                    Copyright &copy; 2021 All Rights Reserved by<a href="/">Ready Meet</a>.
+                </p>
+            </div>
+
+            <div class="col-lg-6 social-icons">
+                <a class="facebook" href="https://www.facebook.com/pranshu.kas/" target="blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a class="linkedin" href="https://www.linkedin.com/in/pranshukashyap13/" target="blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a class="instagram" href="https://www.instagram.com/pranshukas/" target="blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a class="twitter" href="https://twitter.com/Kas13Pranshu" target="blank">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/darkmode.js"></script>
+<script src="js/accordion.js"></script>
