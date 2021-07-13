@@ -59,11 +59,12 @@ Deployed Website (on Heroku): https://readymeet.herokuapp.com/
 
 > ## Local Setup
 Pre-Requisites: You must have Nodejs installed locally on your system
-* Clone the Repository `git clone https://github.com/pranshukas/Ready-Meet.git`
+* Clone the Repository `git clone https://github.com/pranshukas/Ready-Meet.git` or directly download the zip file.
 * ` cd Ready-Meet/`
 * Intall the Dependencies `npm install`
 * _Optional_ Install Nodemon `npm install -g nodemon`
 * Starting the App `npm start` or `node server.js`
+* Open `http://localhost:3000/` to view the App
 
 > ## Improvements
 
