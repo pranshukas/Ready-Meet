@@ -30,6 +30,7 @@ Ready Meet is a Group Video Meeting and Chat Web Application, where multiple use
 * [Local Setup](#local-setup)
 * [Improvements](#improvements)
 * [License](#license)
+* [Screenshots](#screenshots)
 
 > ## Deployment 
 
@@ -98,3 +99,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+> ## Screenshots 
+![Home Page](public/images/landing-page.png)
+![Meeting](public/images/meeting.png)
+![Sucessfull Email](public/images/email-invite.png)
+
