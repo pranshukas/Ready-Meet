@@ -19,7 +19,6 @@ Ready Meet is a Group Video Meeting and Chat Web Application, where multiple use
 * 👤 User Authenticaion
 
 > ## Documentation
-- [Demo video](https://youtu.be/BK7v-Gz2EUg)
 - [Presentation](https://docs.google.com/presentation/d/1z6csQ5YHbrYu9RsSbmHp7JdDms3Ntkd4fReq6RBJtD0/edit?usp=sharing)
 
 > ## Table of Content 
